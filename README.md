@@ -4,9 +4,9 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 ## Steps
 
-!image1[Images/Sheet1.PNG]
+Modifying and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends in the [Excel table](tarterBook.xlsx).
 
-Modifying and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends in the Excel table[StarterBook.xlsx].
+![image1](Images/Sheet1.PNG)
 
 * Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
