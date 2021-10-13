@@ -1,8 +1,8 @@
-# Excel
+# Excel - Using [Kickstarter data](StarterBook.xlsx)
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
-## Modifying and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends ([Excel table](tarterBook.xlsx)).
+## Modifying and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends.
 
 ![image1](Images/Sheet1.PNG)
 
@@ -16,11 +16,13 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
   * Created two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-  * Created a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
-
   ![Pivot1](Images/Pivot1.PNG)
 
+  * Created a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+
   * Created a stacked column pivot chart that can be filtered by country based on the table I have created.
+
+  ![Pivot2](Images/Pivot2.PNG)
 
   * Created a new sheet with a pivot table that will analyze the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
@@ -31,6 +33,8 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
   * Created a new column named `Date Created Conversion` where used [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `launched_at` into Excel's date format.
 
   * Created a new column named `Date Ended Conversion` where used [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
+
+  ![Pivot3](Images/Pivot3.PNG)
 
   * Created a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
@@ -43,8 +47,6 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 3. What are some other possible tables and/or graphs that we could create?
 
 ## Created 'Grouped' sheet for specific analysis.
-
-!['Grouped'](Images/Grouped.PNG)
 
 * Created a new sheet with 8 columns:
 
@@ -72,6 +74,8 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
   * 45000 to 49999
   * Greater than or equal to 50000
 
+!['Grouped'](Images/Grouped.PNG)
+
 * Using the `COUNTIFS()` formula, counted how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populated the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
 * Added up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, found the percentage of projects that were successful, failed, or canceled per goal range.
@@ -79,8 +83,6 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 * Created a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
 ## Statistical Analysis: evaluated the number of backers of successful and unsuccessful campaigns by creating summary statistics table.
-
-![Statistical Analysis](Images/Statistical_Analysis.PNG)
 
 If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
 
@@ -103,3 +105,5 @@ If one were to describe a successful crowdfunding campaign, most people would us
 * Used the data to determine whether the mean or the median summarizes the data more meaningfully.
 
 * Used the data to determine if there is more variability with successful or unsuccessful campaigns.
+
+![Statistical Analysis](Images/Statistical_Analysis.PNG)
