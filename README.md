@@ -18,13 +18,13 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
   ![Pivot1](Images/Pivot1.PNG)
 
-  * Created a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  * Created a new sheet with a pivot table that analyzes the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
   * Created a stacked column pivot chart that can be filtered by country based on the table I have created.
 
   ![Pivot2](Images/Pivot2.PNG)
 
-  * Created a new sheet with a pivot table that will analyze the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
+  * Created a new sheet with a pivot table that analyzes the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
   * Created a stacked column pivot chart that can be filtered by country and parent-category based on the table I have created.
 
