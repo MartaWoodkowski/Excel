@@ -2,7 +2,7 @@
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success.
-## Organizing and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends.
+## Organizing and analyzing the data of 4,000 past Kickstarter projects & uncovering some market trends
 
 ![image1](Images/Sheet1.PNG)
 
@@ -46,7 +46,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
 
-## Grouping Projects for specific analysis.
+## Grouping Projects for specific analysis
 
 * Created a new sheet with 8 columns:
 
@@ -82,7 +82,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 * Created a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-## Statistical Analysis: evaluated the number of backers of successful and unsuccessful campaigns by creating summary statistics table.
+## Statistical Analysis: evaluated the number of backers of successful and unsuccessful campaigns by creating summary statistics table
 
 If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
 
